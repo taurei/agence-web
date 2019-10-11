@@ -18,7 +18,7 @@ text-align: left;
 }
 .img1{
   height:100%;
-  background-image: url("file:///home/dev/Documents/WORKSPACE/agence_web/image/back.jpeg");
+  background-image: url("file:///home/dev/Documents/WORKSPACE/agence_web/agence-web/images/back.jpeg");
   background-size: cover;
   margin-top: 2em;
 }
@@ -90,11 +90,11 @@ text-align: left;
 }
 .img3 {
   margin-top: 23em;
-  background-image: url("file:///home/dev/Documents/WORKSPACE/agence_web/image/pi.jpeg");
+  background-image: url("file:///home/dev/Documents/WORKSPACE/agence_web/agence-web/images/back.jpeg");
 }
 .img5 {
   margin-top: 75em;
-  background-image: url("file:///home/dev/Documents/WORKSPACE/agence_web/image/img0.jpeg");
+  background-image: url("file:///home/dev/Documents/WORKSPACE/agence_web/agence-web/images/img0.jpeg");
   margin-bottom: 8em;
 }
 
