@@ -1,0 +1,657 @@
+.body
+{
+display: flex; 
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif  ;
+color: #ffffff;
+margin: 00px;
+margin-left: 200px;
+margin-right: 100px;
+background-color: #ffffff;
+margin: 20px;
+text-align: left;
+}
+
+#header
+{
+  width: 0%;
+  height: 100%
+}
+.img1{
+  height:100%;
+  background-image: url("file:///home/dev/Documents/WORKSPACE/agence_web/image/back.jpeg");
+  background-size: cover;
+  margin-top: 2em;
+}
+
+.welcome{
+  height: 15em;
+  margin-left: 5%;
+  margin-bottom: 1.5em;
+}
+
+.slogan{
+  margin-top: 2em;
+}
+
+.logo{
+  height: 40%;
+  width: 32%;
+  margin-left: 15%;
+ 
+}
+
+.accueil1{
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 8em;
+  margin-left: 15%;
+  margin-bottom: -0.4em;
+  margin-top: 5px;
+}
+
+.accueil2{
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 4em;
+  margin-left: 16%;
+  margin-bottom: -0.6em;
+
+}
+
+.accueil3{
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 4em;
+  margin-left: 16%;
+}
+
+.accueil4{
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 8em;
+  margin-left: 16%;
+  margin-bottom: 0em;
+  margin-top: -0.5em;
+}
+
+.bg {
+
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.para{
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  margin-left: 50%;
+  margin-top: -19%;
+}
+.img3 {
+  margin-top: 23em;
+  background-image: url("file:///home/dev/Documents/WORKSPACE/agence_web/image/pi.jpeg");
+}
+.img5 {
+  margin-top: 75em;
+  background-image: url("file:///home/dev/Documents/WORKSPACE/agence_web/image/img0.jpeg");
+  margin-bottom: 8em;
+}
+
+
+.entrer{
+  display: flex;
+  margin-left: 47%;
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+  padding: 10px 30px; 
+  background: #0B0B61; 
+  color: white; 
+  font-size: 2em;
+  border:0px solid black;
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+border-radius:7px;
+  }
+.entrer:hover {
+  background: #0040FF; 
+  }
+
+
+/* The switch - the box around the slider */
+.lightswitch {
+position: relative;
+display: inline-block;
+
+display: flex;
+justify-content: left;
+margin-left: 94%;
+}
+  
+/* Hide default HTML checkbox */
+.lightswitch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+  
+/* The slider */
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #4678e4;
+-webkit-transition: .2s;
+transition: .2s;
+}
+  
+.slider:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+left: 4px;
+bottom: 4px;
+background-color: #ffffff;
+-webkit-transition: .2s;
+transition: .2s;
+}
+
+  
+input:checked + .slider {
+background-color: #4678e4;
+}
+  
+input:focus + .slider {
+box-shadow: 0 0 1px rgb(151, 94, 94);
+}
+  
+input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
+  
+/* Rounded sliders */
+.slider.round {
+border-radius: 34px;
+}
+  
+.slider.round:before {
+border-radius: 50%;
+} 
+
+
+
+/*Sizing & Transition*/
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ 
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+ 
+html, body {
+  height: 100%;
+}
+ 
+/*Wrapper*/
+.main {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+	
+/*Headline*/
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font: 70px Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+}
+ 
+
+/*Feature Paragraphs*/
+.features {
+  width: 940px;
+  margin: 0 auto 30px auto;
+}
+
+.features p {
+  width: 33.33%;
+  float: left;
+  padding: 0 20px;
+  font: 13px/1.5 Helvetica, Arial, sans-serif;
+}
+
+.last {
+  padding-right: 0;
+}
+
+.features:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Light Switch*/
+label {
+  display: flex;
+  width: 60px;
+  height: 34px;
+  text-align: center;
+  font: 14px/25px Helvetica, Arial, sans-serif;
+  margin: 5px 95%;
+  position: fixed;
+  margin-top: -15px;
+}
+ 
+label:hover {
+  cursor: pointer;
+}
+ 
+input#lightswitch {
+   position: absolute;
+   top: -9999px;
+   right: -9999px;
+}
+
+input#lightswitch:checked + .main {
+  background: rgb(255, 253, 253);
+}
+
+/*Switched Off*/
+input#lightswitch:checked + .main {
+  background: rgb(255, 255, 255);
+}
+ 
+input#lightswitch:checked + .main h2 {
+  color: #ffffff;
+}
+ 
+
+ 
+input#lightswitch:checked + .main p {
+  color: #aaa;
+}
+ 
+input#lightswitch:checked + .main > .headerimage {
+  background: url(http://lorempixum.com/900/400/city/4);
+  border: 8px solid #fff;
+}
+
+.couleur_blanc{
+  background-color: #819FF7;
+  color: #fff;
+}
+
+.couleur_noir {
+  background-color: #0B0B61;
+  color: #fff;
+}
+
+.minilogo{
+  height: 4em;
+}
+
+#frog
+{
+position: fixed;  
+overflow: hidden;
+background-color: #353535;
+width: 100%;
+margin-top: -35px;
+
+}
+
+#frog a
+{
+
+color: white;
+background-color: #353535;
+display: flex;
+text-align: right;
+padding: 14px 20px;
+text-decoration: none;
+font-size: 20px;
+justify-content: space-around;
+background-color: #353535;
+-webkit-transition: .2s;
+transition: .2s;
+}
+
+#frog a:hover
+{
+float: left;
+color: #0174DF;
+background-image: url("../css/image/stone.jpeg");
+}
+
+#searchbar{
+  margin-top: 13px;
+  margin-left: 300px; 
+  color: black;
+}
+
+#draco
+{
+float: right;
+cursor: pointer;
+margin-right: 350px;
+margin-top: 5px;
+}
+
+.bouton
+{
+  
+  color: black;
+}
+
+.bouton:hover{
+  background-color: #aaa
+}
+
+.exemple{
+  border: 1px black solid;
+  box-shadow: black;
+  height: 30em;
+  width: 50em;
+  margin-top: 7em;
+  margin-left: 10%;
+}
+
+
+
+.photo{
+  height: 15;
+  width: 12em;
+  margin-left: 5em;
+  margin-top: 0.5em;
+}
+
+.dhou{
+  border: 0px solid;
+  box-shadow: black;
+  background-color: #353535;
+  height: 25em;
+  width: 22em;
+  display: block
+}
+
+.nom{
+  font-size: 2em;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.5em;
+}
+
+.texte{
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 1.1em;
+  right: 0;
+  height: 25em;
+  width: 22em;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.texte {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nom {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* CODE CSS TARIFS */
+* {
+  box-sizing: border-box;
+}
+
+.col-4 {
+
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+  margin-bottom: 4em;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color:white;
+  font-size: 25px;
+}
+
+.price li {
+  border: 0px solid rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+
+.grey {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+.li {
+color: black;
+}
+/* FIN DU CODE CSS TARIFS */
+
+
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+/* CSS FULLSCREEN NAVIGATION-SLIDE DOWN- MENU ANNIMATION */
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+/* IMAGE DHOU */
+.element1 {
+  width: 300px;
+  height: 300px;
+  margin-left: 540px;
+  margin-top: 100px;
+}
+/* IMAGE POKARA */
+.element2 {
+  width: 300px;
+  height: 300px;
+  margin-left: 1190px;
+  margin-top: -330px;
+}
+/* IMAGE ROOPINIA */
+.element3 {
+  width: 300px;
+  height: 300px;
+  margin-left: 200px;
+  margin-top: 0px;
+}
+/* IMAGE TAUREI */
+.element4 {
+  width: 300px;
+  height: 300px;
+  margin-left: 200px;
+  margin-top: 0px;
+}
+/* IMAGE LEFEVRE */
+.element5 {
+  width: 300px;
+  height: 300px;
+  margin-left: 200px;
+  margin-top: 0px;
+}
+
+.row{
+  margin-bottom: 8em;
+}
